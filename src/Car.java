@@ -58,7 +58,7 @@ public class Car extends Vehicle{
 		
 		speed = speed + 10;
 		 
-		System.out.println("The " + getColor() + " " + getModel() + "  is accelerating ");
+		System.out.println("The " + getColor() + " " + getModel() + " is accelerating  and started going " + getSpeed() + "mph" );
 	
 	}
 	public void drivingSpeed(){
@@ -75,6 +75,6 @@ public class Car extends Vehicle{
 	
 	public void passing(Car car1, Car car2){
 		
-		System.out.println("The " + getColor() + " " + car1.getModel() + " passed the " + getColor() + " " + car2.getModel() );
+		System.out.println("The " + car1.getColor() + " " + car1.getModel() + " passed the " + car2.getColor() + " " + car2.getModel() );
 	}
 }
